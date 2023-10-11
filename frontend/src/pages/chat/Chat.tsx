@@ -96,6 +96,7 @@ const Chat = () => {
       //  }
     //}
     const getUserInfoList = async () => {
+        const userInfoList = await getUserInfo();
         setShowAuthMessage(false);
     }
     
