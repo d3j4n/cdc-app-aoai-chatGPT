@@ -91,6 +91,7 @@ const Chat = () => {
             setShowAuthMessage(true);
         }
         else {
+            //to disable auth
             //setShowAuthMessage(false);
         }
     }
