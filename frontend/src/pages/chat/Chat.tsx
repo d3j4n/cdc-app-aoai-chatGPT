@@ -94,7 +94,7 @@ const Chat = () => {
             //to disable auth
             //setShowAuthMessage(false);
       //  }
-    //}
+    //}test
     const getUserInfoList = async () => {
         setShowAuthMessage(false);
     }
