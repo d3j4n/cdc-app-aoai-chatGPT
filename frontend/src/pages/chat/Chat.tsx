@@ -554,7 +554,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={Tef}
+                                    src={Azure}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
