@@ -85,18 +85,7 @@ const Chat = () => {
         }, 500);
     }
     
-    //const getUserInfoList = async () => {
-    //   const userInfoList = await getUserInfo();
-        //if (userInfoList.length === 0 && window.location.hostname !== "127.0.0.1") {
-        //    setShowAuthMessage(true);
-       // }
-       // else {
-            //to disable auth
-            //setShowAuthMessage(false);
-      //  }
-    //}
-    const getUserInfoList = async () => {
-        const userInfoList = await getUserInfo();
+    const getUserInfoList = async () => {       
         setShowAuthMessage(false);
     }
     
