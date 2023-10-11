@@ -50,9 +50,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: python-app
-          path: |
-            . 
-            !venv/
+          path: release.zip
+         # path: |
+         #   . 
+         #   !venv/
 
   deploy:
     runs-on: ubuntu-latest
