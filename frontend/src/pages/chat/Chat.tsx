@@ -9,7 +9,7 @@ import uuid from 'react-uuid';
 
 import styles from "./Chat.module.css";
 import Azure from "../../assets/Azure.svg";
-
+import Cfc from "../../assets/Cfc.svg";
 import {
     ChatMessage,
     ConversationRequest,
@@ -530,7 +530,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={Azure}
+                                    src={Cfc}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
